@@ -37,6 +37,13 @@ body {
   margin: 0 0 10px;
 }
 
+.inside-box {
+  margin: 10px 0;
+  padding: 10px;
+  background: #94efff;
+  color: #555;
+}
+
 /* descendent selectors  */
 
 .primary-box h2 {
@@ -54,4 +61,11 @@ body {
 
 .secondary-box em {
   color: #fc3fff;
+}
+
+/* grouping selectors  */
+
+.inside-box h3,
+.inside-box p {
+  font-size: 20px;
 }
