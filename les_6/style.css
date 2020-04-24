@@ -1,0 +1,18 @@
+/*This is coment */
+body {
+  background: #4d2d06;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+}
+
+#person {
+  background: #fff;
+  color: #4d2d06;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#hero {
+  background: green;
+  font-family: "Courier New", Courier, monospace;
+}
