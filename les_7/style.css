@@ -126,3 +126,70 @@ code {
 #background-4 {
   background: url("../images/skull_background.jpg") bottom left repeat-x;
 }
+
+/* // form style */
+
+#container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+form {
+  background-image: url("../images/red_background.jpg");
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form fieldset {
+  background-image: url("../images/blue_background.jpg");
+  padding: 40px;
+  border: solid 1px white;
+}
+
+form fieldset legend {
+  font-weight: bold;
+  font-style: 30px;
+  padding: 5px;
+  border: 1px solid #333;
+  background-image: url("../images/blue_background.jpg");
+}
+
+form input,
+form textarea {
+  display: block;
+  margin-bottom: 20px;
+  text-rendering: optimizeLegibility;
+}
+
+form label {
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  padding: 10px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  border: solid 1px #b90707;
+  background-image: url("../images/red_background.jpg");
+}
+
+form textarea {
+  width: 300px;
+}
+
+form input[type="submit"] {
+  border: none;
+  background: url("../images/2015-03-03_21-19-00__button_background.jpg") top
+    left repeat-x;
+  height: 40px;
+  padding: 0 10px;
+  border: solid 1px #d4730c;
+  color: white;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
