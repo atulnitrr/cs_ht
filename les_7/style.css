@@ -52,3 +52,8 @@ strong {
   text-transform: uppercase;
   font-weight: bold;
 }
+
+a {
+  text-decoration: none;
+  color: #3ee;
+}
