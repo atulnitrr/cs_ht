@@ -11,10 +11,11 @@ body {
 }
 
 #container {
-  color: white;
+  /* color: white; */
   width: 500px;
   padding: 20px;
   margin: 20px auto;
+  background: white;
 }
 
 h1 {
@@ -52,4 +53,26 @@ a:active {
   padding: 5px;
   color: white;
   text-decoration: none;
+}
+
+/* css poitioning */
+
+.box {
+  background: #db4e4e;
+  color: white;
+  height: 150px;
+  width: 150px;
+  margin: 20px 0;
+}
+
+#relative-box {
+  position: relative;
+  top: 30px;
+  left: -70px;
+}
+
+#absolute-box {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
